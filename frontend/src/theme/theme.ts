@@ -1,0 +1,37 @@
+export const theme = {
+  colors: {
+    primary: '#EF4444',
+    primaryLight: '#FEE2E2',
+    accent: '#EC4899',
+    accentLight: '#FCE7F3',
+    background: '#F8FAFC',
+    surface: '#FFFFFF',
+    surfaceHover: '#F1F5F9',
+    textPrimary: '#1F2937',
+    textSecondary: '#6B7280',
+    textMuted: '#9CA3AF',
+    border: '#E5E7EB',
+    borderLight: '#F3F4F6',
+    success: '#22B8A7',
+    purple: '#7C5CFF',
+  },
+  gradients: {
+    headerPrimary: 'linear-gradient(135deg, #EF4444 0%, #EC4899 100%)',
+    panelDark: 'linear-gradient(135deg, #1F2937 0%, #374151 100%)',
+    softSurface: 'linear-gradient(135deg, #FEE2E2 0%, #FCE7F3 100%)',
+  },
+  typography: {
+    fontFamily: "'Inter', sans-serif",
+    h1: { fontSize: '24px', fontWeight: 700 },
+    h2: { fontSize: '20px', fontWeight: 600 },
+    body: { fontSize: '14px', fontWeight: 400 },
+    label: { fontSize: '12px', fontWeight: 500 },
+    small: { fontSize: '11px', fontWeight: 400 },
+  },
+  radius: { sm: '8px', md: '12px', lg: '16px', full: '9999px' },
+  shadow: {
+    sm: '0 1px 2px rgba(0,0,0,0.05)',
+    md: '0 4px 6px -1px rgba(0,0,0,0.07)',
+    lg: '0 10px 15px -3px rgba(0,0,0,0.08)',
+  },
+};

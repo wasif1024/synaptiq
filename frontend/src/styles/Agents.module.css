@@ -1,0 +1,35 @@
+.page { padding: 32px; max-width: 1100px; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.header h1 { font-size: 24px; font-weight: 700; }
+.subtitle { font-size: 13px; color: var(--color-text-muted); margin-top: 4px; }
+.primaryBtn {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--gradient-header-primary); color: white;
+  padding: 10px 20px; border-radius: var(--radius-sm);
+  font-size: 14px; font-weight: 600; border: none;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card {
+  background: var(--color-surface); border: 1px solid var(--color-border);
+  border-radius: var(--radius-md); padding: 20px;
+}
+.cardHeader { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.agentIcon {
+  width: 40px; height: 40px; border-radius: var(--radius-sm);
+  background: var(--gradient-soft-surface);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--color-primary); font-size: 20px;
+}
+.cardActions { display: flex; gap: 4px; }
+.iconBtn {
+  background: none; border: none; color: var(--color-text-muted);
+  padding: 6px; border-radius: 6px; font-size: 16px;
+  display: flex; align-items: center;
+}
+.iconBtn:hover { color: var(--color-primary); background: var(--color-primary-light); }
+.card h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+.desc { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 12px; line-height: 1.5; }
+.model {
+  display: inline-block; padding: 4px 10px; border-radius: var(--radius-sm);
+  background: var(--color-bg); font-size: 12px; color: var(--color-text-muted); font-weight: 500;
+}
